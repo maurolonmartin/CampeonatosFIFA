@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Principal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="~/estilos/EstilosLogin.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/estilos/EstilosMenu.css" runat="server" />
+    <link rel="stylesheet" type="text/css" href="~/estilos/EstilosRejilla.css" runat="server" />
+
+
+    <script src="codigos/jquery/jquery.min.js" type="text/javascript" ></script>
+    <script src="codigos/jquery/jquery-ui.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="codigos/jquery/jquery-ui.css"  />
+    <style>
+        #marcoArr, #marcoAbj, #marcoIzq, #marcoDer {
+            background: #6f6fdd;
+        }
+        #marcoIzq, #marcoDer {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 15px;
+        }
+        #marcoArr, #marcoAbj {
+            position: fixed;
+            left: 0;
+            right: 0;
+            height: 15px;
+        }
+        #marcoIzq {
+            left: 0;
+        }
+        #marcoDer {
+            right: 0;
+        }
+        #marcoArr {
+            top: 0;
+        }
+        #marcoAbj {
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="marcoIzq"></div>
+	<div id="marcoDer"></div>
+	<div id="marcoArr"></div>
+	<div id="marcoAbj"></div>
+
+    <form id="form1" runat="server">
+    <div>
+
+        <img  src="imagenes/Logo FIFA.jpg" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

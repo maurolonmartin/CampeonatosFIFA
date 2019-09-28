@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.master" AutoEventWireup="true" CodeFile="Menu.master.cs" Inherits="Menu" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+    <div id="areaMenuPrincipal">
+
+        <ul id="MenuPrincipal">
+            <li class="inicioNivel1">
+                <a href="FrmCampeonatos.aspx">
+                    <img src="imagenes/Menu/Campeonato.png" />
+                    Campeonatos
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="FrmGrupos.aspx">
+                            <img src="imagenes/Menu/Grupo.png" />
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="FrmEncuentros.aspx">
+                            <img src="imagenes/Menu/Encuentro.png" />
+                            Encuentros
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menuNivel1">
+                <a href="FrmSelecciones.aspx">
+                    <img src="imagenes/Menu/Seleccion.png" />
+                    Selecciones
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="FrmCiudades.aspx">
+                            <img src="imagenes/Menu/Ciudad.png" />
+                            Ciudades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="FrmEstadios.aspx">
+                            <img src="imagenes/Menu/Estadio.png" />
+                            Estadios
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="finalNivel1">
+                <a href="FrmUsuarios.aspx">
+                    <img src="imagenes/Menu/Usuario.png" />
+                    Usuarios
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+

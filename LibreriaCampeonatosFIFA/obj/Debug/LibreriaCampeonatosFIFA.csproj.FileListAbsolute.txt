@@ -1,0 +1,11 @@
+C:\Catedra\IUE\Programacion Web\Curso 2019-2\Ejercicios\CampeonatosFIFA\LibreriaCampeonatosFIFA\bin\Debug\LibreriaCampeonatosFIFA.dll
+C:\Catedra\IUE\Programacion Web\Curso 2019-2\Ejercicios\CampeonatosFIFA\LibreriaCampeonatosFIFA\bin\Debug\LibreriaCampeonatosFIFA.pdb
+C:\Catedra\IUE\Programacion Web\Curso 2019-2\Ejercicios\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.csprojResolveAssemblyReference.cache
+C:\Catedra\IUE\Programacion Web\Curso 2019-2\Ejercicios\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.dll
+C:\Catedra\IUE\Programacion Web\Curso 2019-2\Ejercicios\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.pdb
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\bin\Debug\LibreriaCampeonatosFIFA.dll
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\bin\Debug\LibreriaCampeonatosFIFA.pdb
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.csprojAssemblyReference.cache
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.csproj.CoreCompileInputs.cache
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.dll
+C:\Users\Equipo Casa\source\repos\CampeonatosFIFA\LibreriaCampeonatosFIFA\obj\Debug\LibreriaCampeonatosFIFA.pdb
