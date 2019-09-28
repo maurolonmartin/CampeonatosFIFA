@@ -1,9 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Menu.master" AutoEventWireup="true" CodeFile="FrmEstadios.aspx.cs" Inherits="FrmEstadios" %>
 
 <%@ Register Src="~/ucMensaje.ascx" TagPrefix="uc1" TagName="ucMensaje" %>
+<%@ Register Src="~/ucDecidir.ascx" TagPrefix="uc1" TagName="ucDecidir" %>
+
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
+    <uc1:ucDecidir runat="server" ID="dEliminar" />
 <uc1:ucMensaje runat="server" ID="mensaje" />
 <table>
     <tr>
@@ -44,8 +46,8 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <asp:ImageButton ID="btnAceptar" runat="server" ImageUrl="~/imagenes/Iconos/Aceptar.png" />
-                            <asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/imagenes/Iconos/Cancelar.png" />
+                            <asp:ImageButton ID="btnAceptar" runat="server" ImageUrl="~/imagenes/Iconos/Aceptar.png" OnClick="btnAceptar_Click" />
+                            <asp:ImageButton ID="btnCancelar" runat="server" ImageUrl="~/imagenes/Iconos/Cancelar.png" OnClick="btnCancelar_Click" />
                         </td>
                     </tr>
                 </table>
@@ -56,9 +58,9 @@
     <tr>
         <td>
             <asp:Panel ID="pnlBotones" runat="server">
-            <asp:ImageButton ID="btnAgregar" runat="server" ImageUrl="~/imagenes/Iconos/Agregar.png" />
+            <asp:ImageButton ID="btnAgregar" runat="server" ImageUrl="~/imagenes/Iconos/Agregar.png" OnClick="btnAgregar_Click" />
             <asp:ImageButton ID="btnModificar" runat="server" ImageUrl="~/imagenes/Iconos/Editar.png" OnClick="btnModificar_Click" style="height: 32px" />
-            <asp:ImageButton ID="btnEliminar" runat="server" ImageUrl="~/imagenes/Iconos/Eliminar.png" />
+            <asp:ImageButton ID="btnEliminar" runat="server" ImageUrl="~/imagenes/Iconos/Eliminar.png" OnClick="btnEliminar_Click" />
             </asp:Panel>
         </td>
     </tr>

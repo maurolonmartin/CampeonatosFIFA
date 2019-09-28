@@ -130,6 +130,7 @@ public class Estadio
             ddlCiudad.SelectedIndex = -1;
             txtCapacidad.Text = "";
         }
+        //Conservar el valor de la clave del registro editado
         HttpContext.Current.Session["IdEstadioEditado"] = Id;
     }
 
